@@ -1,0 +1,100 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Oct 10, 2024, 7:07:56 PM
+    Author     : TRUNG NHAN
+*/
+body {
+    font-family: arial;
+}
+.order-head {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.order {
+    display: grid;
+    grid-template-columns: repeat(3, 250px);
+    gap: 20px;
+    padding: 20px;
+    max-width: 1000%;
+    justify-content: center;
+}
+
+.order-custom {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.order-custom p {
+    margin: 8px 0;
+}
+
+.order-custom select {
+    margin-bottom: 10px;
+    padding: 8px;
+    width: 100%;
+    background-color: #ECECEC;
+    border-radius: 4px;
+}
+select:focus {
+    outline: none;
+    border-color: #2E8B57;
+    box-shadow: 0 0 5px rgba(46, 139, 87, 0.5);
+}
+
+.action {
+    display: flex;
+    justify-content: space-between;
+}
+
+.action-custom {
+    width: 100px;
+    height: 35px;
+    border-radius: 4px;
+    border: none;
+    color: white;
+    font-size: 16px;
+}
+.action-custom:hover {
+    filter: brightness(95%);
+}
+.upd {
+    background-color: #F3C246;
+}
+.del {
+    background-color: #DF0029;
+}
+.view-detail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 30px;
+    margin: 5px auto;
+   
+    padding: 5px;
+}
+
+.view-detail:hover {
+    filter: brightness(95%);
+}
+.view-detail-btn{
+    text-decoration: none;
+    color: white;
+    width: 100%;
+    height: 100%;
+    background-color: #33FF00;
+    border: none;
+        padding: 2px;
+ border-radius: 4px;
+    font-size: 16px;
+}
+
+
+
