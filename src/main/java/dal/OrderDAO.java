@@ -375,6 +375,10 @@ public class OrderDAO extends DBContext {
         }
 
     }
+    
+    public static void main(String[] args) {
+        
+    }
 
 //    public OrderInfo getBillByID(String id) {
 //        String sql = "SELECT *\n"
